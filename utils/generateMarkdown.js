@@ -52,12 +52,12 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
-[Installation] (https://github.com/mariea1022/README-generator#installation)
-[Usage] (https://github.com/mariea1022/README-generator#usage)
-[License] (https://github.com/mariea1022/README-generator#licensee)
-[Contribution] (https://github.com/mariea1022/README-generator#contribution)
-[Tests] (https://github.com/mariea1022/README-generator#tests)
-[Questions] (https://github.com/mariea1022/README-generator#questions)
+- [Installation](https://github.com/mariea1022/README-generator#installation)
+- [Usage](https://github.com/mariea1022/README-generator#usage)
+- [License](https://github.com/mariea1022/README-generator#licensee)
+- [Contribution](https://github.com/mariea1022/README-generator#contribution)
+- [Tests](https://github.com/mariea1022/README-generator#tests)
+- [Questions](https://github.com/mariea1022/README-generator#questions)
 
 ## Installation 
 ${data.installation}

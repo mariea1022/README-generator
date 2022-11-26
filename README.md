@@ -1,19 +1,19 @@
-# Week 9 - Node.js: README Generator
+# 09 Node.js Challenge: Professional README Generator
 ![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-To create a professional README via the CLI.
+To create a command-line application that dynamically generates a professional README.md file using the inquirer package. 
 
 ## Table of Contents
-- [Installation] (https://github.com/mariea1022/README-generator#installation)
-- [Usage] (https://github.com/mariea1022/README-generator#usage)
-- [License] (https://github.com/mariea1022/README-generator#licensee)
-- [Contribution] (https://github.com/mariea1022/README-generator#contribution)
-- [Tests] (https://github.com/mariea1022/README-generator#tests)
-- [Questions] (https://github.com/mariea1022/README-generator#questions)
+- [Installation](https://github.com/mariea1022/README-generator#installation)
+- [Usage](https://github.com/mariea1022/README-generator#usage)
+- [License](https://github.com/mariea1022/README-generator#licensee)
+- [Contribution](https://github.com/mariea1022/README-generator#contribution)
+- [Tests](https://github.com/mariea1022/README-generator#tests)
+- [Questions](https://github.com/mariea1022/README-generator#questions)
 
 ## Installation 
-Step 1: <br> Step 2: <br> Step 3: 
+Step 1: <br> Step 2: <br>
 
 ## Usage 
 Answer the questions presented on the terminal.
@@ -25,7 +25,7 @@ This application is covered under the MIT License.
 Please refer to the Contributor Covenant.
 
 ## Tests 
-n/a
+None
 
 ## Questions
 - GitHub: https://github.com/mariea1022 
