@@ -71,10 +71,6 @@ function init() {
         fs.writeFile('README.md', generatedString, (err) => 
             err ? console.error(err) : console.log("README generated successfully")
         )
-        // let generatedLicense = renderLicenseBadge(answers.license)
-        // fs.appendFile('README.md', generatedLicense, (err) => 
-        //     err ? console.error(err) : console.log("License generated successfully")
-        // )
     })
 }
 
