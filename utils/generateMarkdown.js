@@ -1,6 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-
 // a copy of the license choices array in index.js
 let licenseChoicesArray = ["None", "Apache License 2.0", "GNU General Public License v3.0", "MIT License", 'BSD 2-Clause "Simplified" License',
 'BSD 3-Clause "New" or "Revised" License', "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0",
@@ -13,6 +10,8 @@ let licenseBadgesArray = ["", "License-Apache_2.0-blue", "License-GPLv3-blue", "
 "License-AGPL_v3-blue", "License-GPL_v2-blue", "License-LGPL_v2-blue",
 "License-MPL_2.0-brightgreen", "license-Unlicense-blue"];
 
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let licenseBadge = (licenseBadgesArray[licenseChoicesArray.indexOf(license)]);
   console.log(licenseBadge)
@@ -21,25 +20,6 @@ function renderLicenseBadge(license) {
   } else
     return ""
 }
-
-// function renderLicenseBadge(license) {
-//   console.log(license)
-//   if (license !== "none") {
-//     return `https://img.shields.io/badge/License-${license}-green.svg`
-// }
-// }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (license !== "none" && license === "MIT" || license === "Apache_2.0") {
-    return `https://opensource.org/licenses/${license}`
-}
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -75,7 +55,7 @@ ${data.contribution}
 ${data.test}
 
 ## Questions
-- GitHub: https://github.com/${data.username} 
+- GitHub: [${data.username}](https://github.com/${data.username})
 - If you have any questions you can contact me via ${data.email}
 
 `;
