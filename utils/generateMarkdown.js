@@ -52,29 +52,31 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
+<!--ts-->
 - [Installation] (#installation)
 - [Usage] (#usage)
 - [License] (#license)
 - [Contribution] (#contribution)
 - [Tests] (#tests)
 - [Questions] (#questions)
+<!--te-->
 
-## Installation <a name ="installation"></a>
+## Installation 
 ${data.installation}
 
-## Usage <a name ="usage"></a>
+## Usage 
 ${data.usage}
 
-## License <a name ="license"></a>
+## License 
 This application is covered under the ${data.license}.
 
-## Contribution <a name ="contribution"></a>
+## Contribution 
 ${data.contribution}
 
-## Tests <a name ="tests"></a>
+## Tests 
 ${data.test}
 
-## Questions <a name ="questions"></a>
+## Questions 
 - GitHub: https://github.com/${data.username} 
 - If you have any questions you can contact me via ${data.email}
 
