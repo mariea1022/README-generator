@@ -2,16 +2,22 @@
 // If there is no license, return an empty string
 // create an array of license badges
 
-let licenseBadgesArray = ["", "License-Apache_2.0-blue", "License-GPLv3-blue", "License-MIT-yellow", "License-BSD_2--Clause-orange",
-"License-BSD_3--Clause-blue", "License-Boost_1.0-lightblue", "License-CC0_1.0-lightgrey", "License-EPL_1.0-red",
-"License-AGPL_v3-blue", "License-GPL_v2-blue", "License-LGPL_v2-blue",
-"License-MPL_2.0-brightgreen", "license-Unlicense-blue"];
-console.log(licenseBadgesArray)
+// let licenseBadgesArray = ["", "License-Apache_2.0-blue", "License-GPLv3-blue", "License-MIT-yellow", "License-BSD_2--Clause-orange",
+// "License-BSD_3--Clause-blue", "License-Boost_1.0-lightblue", "License-CC0_1.0-lightgrey", "License-EPL_1.0-red",
+// "License-AGPL_v3-blue", "License-GPL_v2-blue", "License-LGPL_v2-blue",
+// "License-MPL_2.0-brightgreen", "license-Unlicense-blue"];
+// console.log(licenseBadgesArray)
 
-
+// function renderLicenseBadge(licenseBadgesArray) {
+//   if (licenseBadgesArray !== "None") {
+//     return `https://img.shields.io/badge/${licenseBadgesArray}.svg`
+//   }
+// }
 function renderLicenseBadge(license) {
-    return `https://img.shields.io/badge/${licenseBadgesArray[1]}.svg`
-  
+  console.log(license)
+  if (license !== "none") {
+    return `https://img.shields.io/badge/License-${license}-green.svg`
+}
 }
 
 // TODO: Create a function that returns the license link

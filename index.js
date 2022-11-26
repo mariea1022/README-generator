@@ -42,10 +42,10 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please choose license',
-        choices: ["none", "Apache-2.0", "GNU-General-Public-v3.0", "MIT", "BSD-2-Clause",
-        "BSD-3-Clause", "Boost-Software-1.0", "Creative-Commons-Zero-v1.0-Universal", "Eclipse Public",
-        "GNU-Affero-General-Public-v.3.0", "GNU-General-Public-v.2.0", "GNU-Lesser-General-v2.1",
-        "Mozilla-Public-2.0", "The-Unlicense"]
+        choices: ["none", "Apache_2.0", "GPLv3", "MIT", "BSD_2--Clause",
+        "BSD_3--Clause", "Boost_1.0", "CC0_1.0", "EPL_1.0",
+        "AGPL_v3", "GPL_v2", "LGPL_v2",
+        "MPL_2.0", "Unlicense"]
        
     },
 ];
@@ -57,11 +57,15 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        console.log(answers)
+        console.log(answers.license)
         let generatedString = generateMarkdown(answers)
         fs.writeFile('README.md', generatedString, (err) => 
             err ? console.error(err) : console.log("README generated successfully")
         )
+        // let generatedLicense = renderLicenseBadge(answers.license)
+        // fs.appendFile('README.md', generatedLicense, (err) => 
+        //     err ? console.error(err) : console.log("License generated successfully")
+        // )
     })
 }
 
