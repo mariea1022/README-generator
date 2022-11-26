@@ -11,42 +11,51 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Enter title of README',
+        message: 'Provide title of README',
     },
-    // {
-    //     type: 'input',
-    //     name: 'description',
-    //     message: 'Enter description of README',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'installation',
-    //     message: 'Enter the installation instructions',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'usage',
-    //     message: 'Enter the usage information',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'contribution',
-    //     message: 'Enter the contribution guidelines',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'test',
-    //     message: 'Enter the test instructions',
-    // },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Provide the usage instructions.',
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Provide the contribution guidelines.The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you prefer.',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Provide tests for your application',
+    },
     {
         type: 'list',
         name: 'license',
         message: 'Please choose license',
-        choices: ["none", "Apache_2.0", "GPLv3", "MIT", "BSD_2--Clause",
-        "BSD_3--Clause", "Boost_1.0", "CC0_1.0", "EPL_1.0",
-        "AGPL_v3", "GPL_v2", "LGPL_v2",
-        "MPL_2.0", "Unlicense"]
-       
+        choices: ["None", "Apache License 2.0", "GNU General Public License v3.0", "MIT License", 'BSD 2-Clause "Simplified" License',
+        'BSD 3-Clause "New" or "Revised" License', "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0",
+        "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1",
+        "Mozilla Public License 2.0", "The Unlicense"]   
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'Provide your GitHub username',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Provide your email',
     },
 ];
 

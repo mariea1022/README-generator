@@ -1,22 +1,39 @@
-# README Generator
-
-![GitHub license](https://img.shields.io/badge/License-BSD_2--Clause-green.svg)
+# 09 Node.js Challenge: Professional README Generator
+![Github license](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
 
 ## Description
-- undefined
+- This application lets users create a professional README via the command-line, which will allow the project creator to devote more time working on the project.
 
+## Table of Contents
+- [Installation] (#installation)
+- [Usage] (#usage)
+- [License] (#license)
+- [Contribution] (#contribution)
+- [Tests] (#tests)
+- [Questions] (#questions)
+
+<a name ="installation"></a>
 ## Installation
-- undefined
+- Step 1: Install package.json <br> Step 2: Install inquirer
 
+<a name ="usage"></a>
 ## Usage 
-- undefined
+- Answer the prompts presented on the terminal.
 
+<a name ="license"></a>
 ## License
-- This application is covered under the BSD_2--Clause license.
+- This application is covered under the BSD 3-Clause "New" or "Revised" License license.
 
+<a name ="contribution"></a>
 ## Contribution
-- undefined
+-  Please refer to the Contributor Covenant.
 
+<a name ="tests"></a>
 ## Tests
-- undefined
+- n/a
+
+<a name ="questions"></a>
+## Questions
+- GitHub: https://github.com/mariea1022 <br>
+If you have any questions you can contact me via mariea1022@gmail.com
 
