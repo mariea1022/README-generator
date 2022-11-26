@@ -49,7 +49,7 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 
 ## Description
-- ${data.description}
+${data.description}
 
 ## Table of Contents
 - [Installation] (#installation)
@@ -59,24 +59,24 @@ ${renderLicenseBadge(data.license)}
 - [Tests] (#tests)
 - [Questions] (#questions)
 
-<a name ="installation"></a>## Installation
-- ${data.installation}
+## Installation <a name ="installation"></a>
+${data.installation}
 
-<a name ="usage"></a>## Usage 
-- ${data.usage}
+## Usage <a name ="usage"></a>
+${data.usage}
 
-<a name ="license"></a>## License
-- This application is covered under the ${data.license}.
+## License <a name ="license"></a>
+This application is covered under the ${data.license}.
 
-<a name ="contribution"></a>## Contribution
-- ${data.contribution}
+## Contribution <a name ="contribution"></a>
+${data.contribution}
 
-<a name ="tests"></a>## Tests
-- ${data.test}
+## Tests <a name ="tests"></a>
+${data.test}
 
-<a name ="questions"></a>## Questions
-- GitHub: https://github.com/${data.username} <br>
-If you have any questions you can contact me via ${data.email}
+## Questions <a name ="questions"></a>
+- GitHub: https://github.com/${data.username} 
+- If you have any questions you can contact me via ${data.email}
 
 `;
 }
