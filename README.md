@@ -39,7 +39,7 @@ Installed npm and Inquirer 8.2.4.
 
 ## Usage
 
-[Here is a walkthrough video that demonstrates the functionality of the README generator.](utils/walkthrough-video.webm)
+[Here is a walkthrough video that demonstrates the functionality of the README generator.](https://drive.google.com/file/d/1tRyobDygq2uknS9lsiCSpuJlp290g2ZT/view?usp=sharing)
 
 The application will be invoked by using the following command:
 
