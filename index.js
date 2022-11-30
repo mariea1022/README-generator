@@ -4,7 +4,6 @@ const fs = require('fs')
 
 // let {generateMarkdown, generateLicenseBadge} = require("./utils/generateMarkdown")
 let generateMarkdown = require("./utils/generateMarkdown")
-let generateLicenseBadge = require("./utils/generateMarkdown")
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -65,8 +64,8 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        console.log(answers.license)
         let generatedString = generateMarkdown(answers)
+        console.log(generatedString)
         fs.writeFile('README.md', generatedString, (err) => 
             err ? console.error(err) : console.log("README generated successfully")
         )

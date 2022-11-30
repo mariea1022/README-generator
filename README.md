@@ -1,8 +1,9 @@
-# 09 Node.js Challenge: Professional README Generator
+# Week 9 Challenge: README Generator
 ![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-To create a command-line application that dynamically generates a professional README.md file using the inquirer package. 
+The task was to create a command-line application that dynamically creates a professional README. <br><br>
+``` AS A developer > I WANT a REAME generator >  SO THAT I can quickly create a professional README for a new project ```
 
 ## Table of Contents
 - [Installation](https://github.com/mariea1022/README-generator#installation)
@@ -13,21 +14,21 @@ To create a command-line application that dynamically generates a professional R
 - [Questions](https://github.com/mariea1022/README-generator#questions)
 
 ## Installation 
-Step 1: <br> Step 2: <br>
+Step 1: Initialize/Install npm <br> Step 2: Install Inquirer 
 
 ## Usage 
-Answer the questions presented on the terminal.
+Answer the questions presented in the terminal.
 
 ## License 
 This application is covered under the MIT License.
 
 ## Contribution 
-Please refer to the Contributor Covenant.
+Please refer to  the Contributor Covenant.
 
 ## Tests 
 None
 
 ## Questions
-- GitHub: https://github.com/mariea1022 
+- GitHub: [mariea1022](https://github.com/mariea1022)
 - If you have any questions you can contact me via mariea1022@gmail.com
 
