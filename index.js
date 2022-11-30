@@ -66,7 +66,7 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
         let generatedString = generateMarkdown(answers)
         console.log(generatedString)
-        fs.writeFile('README.md', generatedString, (err) => 
+        fs.writeFile('sampleREADME.md', generatedString, (err) => 
             err ? console.error(err) : console.log("README generated successfully")
         )
     })
